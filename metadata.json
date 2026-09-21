@@ -1,0 +1,6 @@
+{
+  "name": "Billionaire's Night - Annual Staff Get Together",
+  "description": "Exclusive VIP digital event invitation for Billionaire's Night Annual Staff Get Together of North Western II Region at Lotus Ballroom, Asliya, Golden Cassandra, Kurunegala.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
