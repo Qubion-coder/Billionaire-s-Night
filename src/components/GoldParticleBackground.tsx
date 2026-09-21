@@ -120,7 +120,7 @@ export default function GoldParticleBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ opacity: 0.85 }}
+      style={{ opacity: 0.85, transform: 'translateZ(0)', backfaceVisibility: 'hidden' }}
     />
   );
 }

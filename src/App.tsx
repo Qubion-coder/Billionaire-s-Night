@@ -41,7 +41,7 @@ export default function App() {
       <GoldParticleBackground />
 
       {/* Atmospheric Ambient Lighting Gradients */}
-      <div className="fixed inset-0 pointer-events-none z-0">
+      <div className="fixed inset-0 pointer-events-none z-0 mobile-ambient-lighting">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-gradient-to-b from-[#d4af37]/10 via-[#8a6318]/05 to-transparent blur-[120px]" />
         <div className="absolute top-1/3 -left-40 w-96 h-96 bg-[#aa771c]/05 rounded-full blur-[100px]" />
         <div className="absolute top-2/3 -right-40 w-96 h-96 bg-[#d4af37]/05 rounded-full blur-[100px]" />
